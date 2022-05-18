@@ -22,3 +22,38 @@ func Fibonacci(cantImprimir int) {
 		fmt.Printf(" %d", b)
 	}
 }
+
+/*func ImprimiFibonacciSerieArreglo(numTop int) []int {
+
+	result := make([]int, numTop)
+	indice := 2
+
+	a := 0
+	b := 1
+	c := b
+
+	result[0] = a
+	result[1] = b
+
+	for true {
+		c = b
+		b = a + b
+		if b >= numTop {
+			break
+		}
+		a = c
+		result[indice] = b
+		indice++
+	}
+
+	return result[:indice]
+}
+
+func FibonacciRecursiva(n int) (res int) {
+	if n <= 1 {
+		res = 1
+	} else {
+		res = FibonacciRecursiva(n-1) + FibonacciRecursiva(n-2)
+	}
+	return
+}*/
